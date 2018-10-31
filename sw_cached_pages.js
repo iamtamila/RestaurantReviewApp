@@ -3,7 +3,7 @@ const cacheName ='v2';
 /*Install event*/
 self.addEventListener('install', event => {
   console.log("SW installed");
-  .then(() => self.skipWaiting())
+
 });
 
 /*Activate event*/
